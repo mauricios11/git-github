@@ -10,20 +10,24 @@ def get_familia():
     rows = ["Amin", "Marce", "Miranda"]
     return rows
 
+
 @app.get("/superheroesDC")
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
+
 
 @app.get("/superheroesMarvel")
 def get_superheroes_marvel():
     rows = ["Spider-Man", "Iron Man", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Black Panther", "Captain America"]
     return rows
 
+
 @app.get("/LOTRWarriors")
 def get_lotr_warriors():
     rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum", "El anillo"]
     return rows
+
 
 @app.get("/starwarsWarriors")
 def get_starwars_warriors():
